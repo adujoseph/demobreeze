@@ -16,7 +16,9 @@ import {
   import * as Animatable from 'react-native-animatable';
   import {heightPercentageToDP as hp} from 'react-native-responsive-screen';
   import {GlobalStyles} from '../../../utils/globalStyles';
-  
+  import PaperPlane from '../../../assets/onboard_asset/plane_with_tail.svg';
+  import Bird from '../../../assets/onboard_asset/bird_with_tail.svg';
+
   const Onboard = () => {
     const [slide, setSlide] = useState(1);
   
@@ -65,6 +67,7 @@ import {
                   Finance. Loans. Investment.
                 </Text>
               </View>
+              <PaperPlane />
             </ImageBackground>
           </Animatable.View>
   
